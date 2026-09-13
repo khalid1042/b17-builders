@@ -22,7 +22,6 @@
 
 html, body {
   width: 100%;
-  overflow-x: hidden;
   font-family: var(--font-body);
   color: var(--color-dark-text);
   background-color: var(--color-light-bg);
