@@ -14,7 +14,7 @@ export default function Logo({ className = '', darkBackground = false }: LogoPro
         src="/images/eagle_logo_transparent.png"
         alt="EAGLE ESTATE & BUILDERS"
         style={{
-          height: '90px', /* Fit exactly inside 100px header */
+          height: '115px', /* Huge size but fixed inside header */
           width: 'auto',
           objectFit: 'contain',
           display: 'block'

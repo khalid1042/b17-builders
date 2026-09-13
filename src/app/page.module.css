@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: calc(100vh - 100px); /* Full height minus taller header */
+  height: calc(100vh - 125px); /* Full height minus taller header */
   min-height: 600px;
   display: flex;
   align-items: center;
