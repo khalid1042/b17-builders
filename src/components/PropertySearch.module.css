@@ -1,0 +1,78 @@
+.searchSection {
+  background-color: var(--color-white);
+  border-radius: 8px;
+  box-shadow: var(--shadow-medium);
+  padding: 1.5rem;
+  margin: -4rem auto 3rem;
+  position: relative;
+  z-index: 10;
+  max-width: 1000px;
+}
+
+.searchTabs {
+  display: flex;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.searchTab {
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  color: #737373;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.searchTab.active {
+  color: var(--color-primary-dark);
+  border-bottom-color: var(--color-premium-gold);
+}
+
+.searchTab:hover:not(.active) {
+  color: var(--color-primary-dark);
+}
+
+.searchForm {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .searchForm {
+    grid-template-columns: repeat(4, 1fr) auto;
+    align-items: end;
+  }
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #525252;
+  margin-bottom: 0.5rem;
+}
+
+.select, .input {
+  padding: 0.75rem;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--color-primary-dark);
+  background-color: var(--color-white);
+}
+
+.select:focus, .input:focus {
+  outline: none;
+  border-color: var(--color-premium-gold);
+}
+
+.btnSearch {
+  height: 48px;
+  width: 100%;
+}
