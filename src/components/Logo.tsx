@@ -11,10 +11,10 @@ export default function Logo({ className = '', darkBackground = false }: LogoPro
   return (
     <div className={`flex items-center justify-center ${className}`} style={{ userSelect: 'none' }}>
       <img
-        src="/images/eagle_logo.png"
+        src="/images/eagle_logo_transparent.png"
         alt="EAGLE ESTATE & BUILDERS"
         style={{
-          height: '80px', /* Constrain height to fit inside the 90px header */
+          height: '90px', /* Fit exactly inside 100px header */
           width: 'auto',
           objectFit: 'contain',
           display: 'block'

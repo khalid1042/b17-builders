@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 90px; /* Slightly taller for elegance */
+  height: 100px; 
 }
 
 .nav {
@@ -99,10 +99,10 @@
 
 .mobileMenu {
   position: fixed;
-  top: 90px;
+  top: 100px;
   left: 0;
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 100px);
   background-color: var(--color-white);
   display: flex;
   flex-direction: column;
